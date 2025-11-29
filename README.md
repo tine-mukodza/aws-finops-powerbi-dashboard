@@ -8,7 +8,9 @@ The dashboard includes **KPIs, DAX measures, visuals, and actionable optimizatio
 
 ##  Project Overview
 
-This FinOps dashboard uncovers:
+This project is a two-page AWS Cloud Cost Optimization dashboard built in Power BI using October 2025 billing data. It applies FinOps principles such as cost visibility, rightsizing analysis, savings plan evaluation, environment-level cost allocation, and anomaly detection. The dashboard includes custom DAX measures, KPI cards, donut charts, trend visuals, and optimization insights designed for real-world FinOps workflows.
+
+The FinOps dashboard uncovers:
 - Total AWS spend across services, regions, pricing models, and usage types  
 - High-cost drivers contributing to overall cloud cost  
 - Rightsizing and Savings Plan optimization opportunities  
