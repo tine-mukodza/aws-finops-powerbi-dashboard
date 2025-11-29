@@ -1,14 +1,13 @@
 # AWS Cloud Cost Optimization (FinOps Dashboard & Case Study)
 
 This project analyzes **AWS Cloud Costs for October 2025** using Power BI.  
-It applies **FinOps principles** including cost visibility, cost allocation, rightsizing, and optimization tracking.  
-The dashboard includes **KPIs, DAX measures, visuals, and actionable optimization insights**.
+It applies core FinOps principles including cost visibility, cost allocation, rightsizing analysis, anomaly detection, and optimization tracking.  
+The dashboard features custom **DAX measures, KPI indicators, multi-page visuals, and actionable insights** focused on reducing waste and improving AWS cost efficiency.
+
 
 ---
 
 ##  Project Overview
-
-This project is a two-page AWS Cloud Cost Optimization dashboard built in Power BI using October 2025 billing data. It applies FinOps principles such as cost visibility, rightsizing analysis, savings plan evaluation, environment-level cost allocation, and anomaly detection. The dashboard includes custom DAX measures, KPI cards, donut charts, trend visuals, and optimization insights designed for real-world FinOps workflows.
 
 The FinOps dashboard uncovers:
 - Total AWS spend across services, regions, pricing models, and usage types  
@@ -141,6 +140,15 @@ These may indicate one-off workloads, inefficient ETL pipelines, or unexpected d
 ~Eliminating waste in Staging/Dev
 
 ~Reducing data-transfer inefficiencies 
+
+## 📘 What I Learned
+- Building multi-page Power BI dashboards with consistent visual structure
+- Creating KPI cards using custom DAX (AVERAGEX, MAXX, DISTINCTCOUNT, STDEVX.S)
+- Applying FinOps concepts: rightsizing, savings plans evaluation, and cost optimization
+- Interpreting service-level and usage-type cloud cost patterns
+- Detecting anomalies and high-cost signals using DAX statistical measures
+- Documenting BI projects professionally using GitHub
+
 
 
 
