@@ -14,9 +14,9 @@ The FinOps dashboard uncovers:
 - High-cost drivers contributing to overall cloud cost  
 - Rightsizing and Savings Plan optimization opportunities  
 - Daily anomalies and unusual spend patterns  
-- Estimated savings if shifting from **On-Demand to Savings Plans**
+- Estimated savings from switching On-Demand workloads to Savings Plans
 
-The report is split into **two pages**:
+The solution is structured across two analytical pages, each with a strategic purpose.
 
 ---
 
@@ -32,13 +32,14 @@ The report is split into **two pages**:
 - Regions in Use  
 - Production Cost %  
 - Average Cost per Service  
-- Cost trend over time  
-- Cost distribution by Pricing Model  
-- Spend by Environment (Prod, Staging, Development)  
-- Top AWS Services by Cost  
+- Daily Cost trend
+- Spend by Pricing Model  
+- Spend by Environment (Prod/Stage/Dev)  
+- Top Services by Cost  
 - Spend by Region  
-- Spend by Usage Type  
-
+- Spend by Usage Type
+  
+This page gives leadership a high-level understanding of cloud spend, drivers, and patterns.
 ---
 
 ## **Page 2 - Optimization Insights**
@@ -50,16 +51,17 @@ The report is split into **two pages**:
 - **Estimated Savings (On-Demand → SP)**  
 - Rightsizing %  
 - Daily Cost Standard Deviation (StDev)  
-- Optimization summary & insights  
+- Optimization summary & Recommendations  
 
 ### Deep-Dive Visuals
 - Cost Drivers by Service  
 - Cost Drivers by Region  
-- Cost by UsageType  
-- Daily anomaly detection signals  
-- Cost by Tag Environment  
-- Cost by Pricing Model  
+- Cost by Usage Type  
+- Daily Anomaly Detection   
+- Spend by Tag: Environment  
+- Spend by Pricing Model  
 
+This page transforms raw billing data into actionable optimization strategies.
 ---
 
 ##  **Key DAX Measures Used**
@@ -105,31 +107,27 @@ STDEVX.S(
 )
 ```
 # Insights Summary (Business + Technical)
-## Cost Drivers
+## 1.Cost Drivers
 
-Largest spend comes from AWS Glue, Redshift, RDS, and EC2.
+- Highest spend from AWS Glue, Redshift, RDS, and EC2
+- Primary region: US-East-1
+- Usage cost is dominated by TimedStorage-GB, DataTransfer-Out, Requests
+- On-Demand pricing accounts for ~72% of total cost
 
-US-East-1 accounts for most total cost.
+## 2.Optimization Opportunities
 
-TimedStorage-GB, DataTransfer-Out, and Requests dominate usage-based charges.
+- Converting On-Demand to Savings Plans yields ~30% savings
+- Rightsizing analysis shows ~22% optimization potential
+- Staging/Dev environments show non-critical over-provisioned workloads
+- Data transfer inefficiencies create unnecessary cost spikes
 
-OnDemand pricing contributes to approximately 72% of all spend.
+## 3.Anomaly Detection
 
-## Optimization Opportunities
+- Several daily spikes >2× above baseline
 
-Converting OnDemand workloads to Savings Plans yields an estimated ~30% cost reduction.
+- Likely sources: ETL pipeline inefficiencies, temporary workloads, unplanned data transfer
 
-Rightsizing analysis indicates 22% optimization potential.
-
-Non-Production environments (Staging/Dev) show unnecessary spend and can be optimized further.
-
-## Anomaly Detection
-
-Several daily cost spikes exceed 2× the standard deviation above the baseline.
-
-These may indicate one-off workloads, inefficient ETL pipelines, or unexpected data transfer activity.
-
-## Overall Estimated Savings
+## 4.Estimated Savings
 
 ~$10.9K/month in potential savings through:
 
@@ -141,14 +139,13 @@ These may indicate one-off workloads, inefficient ETL pipelines, or unexpected d
 
 ~Reducing data-transfer inefficiencies 
 
-## What I Learned
-- Building multi-page Power BI dashboards with consistent visual structure
-- Creating KPI cards using custom DAX (AVERAGEX, MAXX, DISTINCTCOUNT, STDEVX.S)
-- Applying FinOps concepts: rightsizing, savings plans evaluation, and cost optimization
-- Interpreting service-level and usage-type cloud cost patterns
-- Detecting anomalies and high-cost signals using DAX statistical measures
-- Documenting BI projects professionally using GitHub
-
+## Skills Demonstrated
+- Developed multi-page Power BI dashboards with consistent UX and KPI design
+- Engineered custom DAX measures (AVERAGEX, MAXX, DISTINCTCOUNT, STDEVX.S) for analytical insightss
+- Applied FinOps principles such as rightsizing, cost visibility, and savings plan modeling
+- Identified cost drivers, usage inefficiencies, and high-spend AWS services via BI analysis
+- Built optimization recommendations aligned with cloud financial management practices
+- Documented the entire BI and FinOps workflow following professional GitHub standards
 
 
 
