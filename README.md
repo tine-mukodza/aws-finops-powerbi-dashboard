@@ -1,6 +1,4 @@
-# AWS Cloud Cost Optimization (FinOps Dashboard & Case Study)
-
-*AWS Cloud Cost Optimization – FinOps Dashboard & Insights Report*
+###*AWS Cloud Spend Intelligence – FinOps Analytics & Optimization Dashboard*
 
 This project delivers an end-to-end analysis of AWS cloud spend for October 2025 using Power BI, aligned with FinOps Foundation best practices.
 It includes detailed cost allocation, tag-based visibility, EC2 rightsizing analysis, anomaly detection, and modeled savings from Reserved Instances and Savings Plans.
