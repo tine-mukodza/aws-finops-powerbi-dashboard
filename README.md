@@ -162,9 +162,9 @@ STDEVX.S(
 - Engineered custom DAX measures (AVERAGEX, MAXX, DISTINCTCOUNT, STDEVX.S)
 - Applied FinOps best practices: savings modeling, rightsizing, tagging, anomaly detection
 - Identified cost drivers across services, regions, pricing models
-- Modeled savings from On-Demand → Savings Plans transitions
+- Modeled savings from On-Demand - Savings Plans transitions
 - Interpreted AWS usage patterns (storage, compute, requests, data transfer)
-- Delivered a complete BI → FinOps → Optimization lifecycle
+- Delivered a complete BI - FinOps - Optimization lifecycle
 - Packaged the project into a structured, professional GitHub repository
 
 ---
