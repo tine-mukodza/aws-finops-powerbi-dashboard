@@ -1,4 +1,4 @@
-### *AWS Cloud Spend Intelligence – FinOps Analytics & Optimization Dashboard*
+### *Cloud Cost Optimization Dashboard | Business Intelligence & FinOpsd*
 
 This project delivers a complete FinOps Cost Intelligence Dashboard analyzing AWS spending for October 2025, built end-to-end in Power BI using FinOps Foundation principles.
 
